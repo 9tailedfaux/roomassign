@@ -6,7 +6,16 @@ class Person:
         self.peoplePrefs = peoplePrefs
 
     def calculateMatch(self, room):
-        pass
+        match = 0
+        #do calculations
+        return match
+
+
+class PersonPref:
+    def __init__(self, person, pref):
+        self.person = person
+        self.pref = pref
+
 
 class Genders(Enum):
     MALE = 1
